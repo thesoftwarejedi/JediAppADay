@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Honey Pot Google Map</title>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAkraYU6Qdn8WQqhTulFoYxxRh1Hvy25ma0Yu5Y6HvLWoXtqUmKBQAoBjU1hUB9o_fjRbGIlO43p0X1Q"
+      type="text/javascript"></script>
+
+
+  <!-- Make the document body take up the full screen -->
+  <style type="text/css">
+    v\:* {behavior:url(#default#VML);}
+    html, body {width: 100%; height: 100%}
+    body {margin-top: 0px; margin-right: 0px; margin-left: 0px; margin-bottom: 0px}
+  </style>
+
+  </head>
+
+  <body onload="load()" onunload="GUnload()">
+    <div id="map" style="width: 100%; height: 100%;"></div>
+
+  <script type="text/javascript">
+    //<![CDATA[        
+	var map;
+	if (GBrowserIsCompatible()) {
+		map = new GMap(document.getElementById("map"));
+
+		map.addControl(new GLargeMapControl());
+		map.addControl(new GMapTypeControl());
+		map.addControl(new GOverviewMapControl());
+
+        map.centerAndZoom(new GPoint(-95.677068, 37.0625), 15);
+		//map.centerAndZoom(new GPoint(39.893, -96.879), 8);
+	
+		// Monitor the window resize event and let the map know when it occurs 
+		if (window.attachEvent) { 
+			window.attachEvent("onresize", function() {this.map.onResize()} ); 
+		} else { 
+			window.addEventListener("resize", function() {this.map.onResize()} , false); 
+		}
+
+		GDownloadUrl("/data/", function(data, responseCode) {
+			var xml = GXml.parse(data);
+			var markers = xml.documentElement.getElementsByTagName("XMLPoint");
+			for (var i = 0; i < markers.length; i++) {
+				var point = new GLatLng(parseFloat(markers[i].getAttribute("lat")),
+				                         parseFloat(markers[i].getAttribute("lon")));
+				map.addOverlay(new GMarker(point));
+			}
+		});
+	}
+
+    //]]>
+  </script>
+
+  </body>
+
+</html> 

@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Polar Bears Google Map</title>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAD6-5AsFZjZXOAnyCDjgu4xSOfBv55qGgn673XBnuLxX3BF-FnxRc35X1ra04AEgLerYzf19oZRO4hQ"
+      type="text/javascript"></script>
+
+
+  <!-- Make the document body take up the full screen -->
+  <style type="text/css">
+    v\:* {behavior:url(#default#VML);}
+    html, body {width: 100%; height: 100%}
+    body {margin-top: 0px; margin-right: 0px; margin-left: 0px; margin-bottom: 0px}
+  </style>
+
+
+  </head>
+
+  <body onload="load()" onunload="GUnload()">
+    <div id="map" style="width: 100%; height: 100%;"></div>
+
+
+  <script type="text/javascript">
+    //<![CDATA[        
+	var map;
+	if (GBrowserIsCompatible()) {
+		map = new GMap(document.getElementById("map"));
+
+		map.addControl(new GLargeMapControl());
+		map.addControl(new GMapTypeControl());
+		map.addControl(new GOverviewMapControl());
+
+		map.centerAndZoom(new GPoint(23.641, 79.896), 11);
+	
+		// Monitor the window resize event and let the map know when it occurs 
+		if (window.attachEvent) { 
+			window.attachEvent("onresize", function() {this.map.onResize()} ); 
+		} else { 
+			window.addEventListener("resize", function() {this.map.onResize()} , false); 
+		}
+
+		GDownloadUrl("bears.php", function(data, responseCode) {
+			var xml = GXml.parse(data);
+			var markers = xml.documentElement.getElementsByTagName("marker");
+			for (var i = 0; i < markers.length; i++) {
+				var point = new GLatLng(parseFloat(markers[i].getAttribute("lat")),
+				                         parseFloat(markers[i].getAttribute("lng")));
+				map.addOverlay(createMarker(point, markers[i].getAttribute("data")));
+			}
+		});
+	}
+
+	function createMarker(point, text) {
+		var marker = new GMarker(point);
+		GEvent.addListener(marker, "click", function() {
+			marker.openInfoWindowHtml(text);
+		});
+		return marker;
+	}
+
+    //]]>
+  </script>
+
+
+
+  </body>
+
+</html> 

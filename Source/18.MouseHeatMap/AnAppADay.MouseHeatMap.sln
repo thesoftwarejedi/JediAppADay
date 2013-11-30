@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnAppADay.MouseHeatMap.WinApp", "AnAppADay.MouseHeatMap.WinApp\AnAppADay.MouseHeatMap.WinApp.csproj", "{19E8218C-75CF-4F32-B98F-173DEE24971A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnAppADay.Utils", "..\AnAppADay.Utils\AnAppADay.Utils.csproj", "{7268CD4B-8EB8-49C2-8BFB-D0B9FA2C42AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19E8218C-75CF-4F32-B98F-173DEE24971A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E8218C-75CF-4F32-B98F-173DEE24971A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E8218C-75CF-4F32-B98F-173DEE24971A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E8218C-75CF-4F32-B98F-173DEE24971A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7268CD4B-8EB8-49C2-8BFB-D0B9FA2C42AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7268CD4B-8EB8-49C2-8BFB-D0B9FA2C42AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7268CD4B-8EB8-49C2-8BFB-D0B9FA2C42AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7268CD4B-8EB8-49C2-8BFB-D0B9FA2C42AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

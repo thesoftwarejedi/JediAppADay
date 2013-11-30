@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnAppADay.RSSAlerter.WinApp", "AnAppADay.RSSAlerter.WinApp\AnAppADay.RSSAlerter.WinApp.csproj", "{457FE7A6-EE0B-44F0-BA9F-15E7DECB441A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssParses", "Rss\RssParses.csproj", "{73BD7A98-93D9-42A2-91E9-18CC74ABC6CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{457FE7A6-EE0B-44F0-BA9F-15E7DECB441A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{457FE7A6-EE0B-44F0-BA9F-15E7DECB441A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{457FE7A6-EE0B-44F0-BA9F-15E7DECB441A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{457FE7A6-EE0B-44F0-BA9F-15E7DECB441A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73BD7A98-93D9-42A2-91E9-18CC74ABC6CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BD7A98-93D9-42A2-91E9-18CC74ABC6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BD7A98-93D9-42A2-91E9-18CC74ABC6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BD7A98-93D9-42A2-91E9-18CC74ABC6CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

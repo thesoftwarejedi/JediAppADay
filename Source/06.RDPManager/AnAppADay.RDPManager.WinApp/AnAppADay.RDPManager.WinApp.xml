@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RDPConnections ScreenMode="1" DesktopWidth="1024" DesktopHeight="768" 
+                 Compression="1" KeyboardHook="1" AudioMode="2" 
+                  RedirectDrives ="0" RedirectPrinters="0" RedirectComPorts="0" 
+                  RedirectSmartCards="0" Username="guest" Domain="" 
+                  DisableWallpaper="1" DisableWindowDrag="1" DisableAnims="1" 
+                  DisableThemes="1" DisableCursor="1">
+  <RDPConnections DisplayName="Server Group 1">
+    <RDPConnection MachineName="machine1" DisplayName="Machine 1"/>
+    <RDPConnection MachineName="machine2" DisplayName="Machine 2"/>
+  </RDPConnections>
+  <RDPConnections DisplayName="Server Group 2">
+    <RDPConnection MachineName="machine3" DisplayName="Machine 3"/>
+  </RDPConnections>
+</RDPConnections>

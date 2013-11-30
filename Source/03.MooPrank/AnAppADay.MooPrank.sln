@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnAppADay.MooPrank.Moo", "AnAppADay.MooPrank.Moo\AnAppADay.MooPrank.Moo.csproj", "{CA75E3BD-B14D-4FEA-B392-15DDB3357914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnAppADay.MooPrank.WaveLibMixer", "WaveLibMixer\AnAppADay.MooPrank.WaveLibMixer.csproj", "{6F3FA628-01C6-48AF-9D1A-9BB1EAF8D259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnAppADay.MooPrank.SendMoo", "AnAppADay.MooPrank.SendMoo\AnAppADay.MooPrank.SendMoo.csproj", "{E45E4980-7EA6-41A5-AAD3-8B3C0E7B3CC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA75E3BD-B14D-4FEA-B392-15DDB3357914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA75E3BD-B14D-4FEA-B392-15DDB3357914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA75E3BD-B14D-4FEA-B392-15DDB3357914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA75E3BD-B14D-4FEA-B392-15DDB3357914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F3FA628-01C6-48AF-9D1A-9BB1EAF8D259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F3FA628-01C6-48AF-9D1A-9BB1EAF8D259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F3FA628-01C6-48AF-9D1A-9BB1EAF8D259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F3FA628-01C6-48AF-9D1A-9BB1EAF8D259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E45E4980-7EA6-41A5-AAD3-8B3C0E7B3CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45E4980-7EA6-41A5-AAD3-8B3C0E7B3CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45E4980-7EA6-41A5-AAD3-8B3C0E7B3CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45E4980-7EA6-41A5-AAD3-8B3C0E7B3CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

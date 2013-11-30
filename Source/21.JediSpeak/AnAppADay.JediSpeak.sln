@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnAppADay.JediSpeak.Server", "AnAppADay.JediSpeak.Server\AnAppADay.JediSpeak.Server.csproj", "{4143A7E7-8218-45C5-93D3-F29E2651666D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnAppADay.JediSpeak.Shared", "AnAppADay.JediSpeak.Shared\AnAppADay.JediSpeak.Shared.csproj", "{4ADB2E10-C9A8-443B-A18E-DDF7FC9436AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnAppADay.JediSpeak.Client", "AnAppADay.JediSpeak.Client\AnAppADay.JediSpeak.Client.csproj", "{F7D38D3D-E953-4EEF-8D06-58F69A3E7520}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4143A7E7-8218-45C5-93D3-F29E2651666D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4143A7E7-8218-45C5-93D3-F29E2651666D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4143A7E7-8218-45C5-93D3-F29E2651666D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4143A7E7-8218-45C5-93D3-F29E2651666D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ADB2E10-C9A8-443B-A18E-DDF7FC9436AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ADB2E10-C9A8-443B-A18E-DDF7FC9436AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ADB2E10-C9A8-443B-A18E-DDF7FC9436AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ADB2E10-C9A8-443B-A18E-DDF7FC9436AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7D38D3D-E953-4EEF-8D06-58F69A3E7520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D38D3D-E953-4EEF-8D06-58F69A3E7520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D38D3D-E953-4EEF-8D06-58F69A3E7520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D38D3D-E953-4EEF-8D06-58F69A3E7520}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

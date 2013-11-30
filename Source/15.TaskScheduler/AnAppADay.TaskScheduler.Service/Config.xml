@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tasks>
+  <Task Name="Task 1" Execute="C:\Users\Dana\Documents\test.bat" StdOut="Task1Out.{0}.log" StdErr="Task1Out.{0}.log" KillAfter="10">
+    <Schedule Interval="300" />
+    <Schedule Days="SMWts" Time="00:53" />
+    <Schedule Days="s" Time="00:54" />
+    <Schedule Days="STWF" Time="00:30" />
+  </Task>
+</Tasks>

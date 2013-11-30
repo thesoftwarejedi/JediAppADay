@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Torian.Magnifier", "Torian.Magnifier\Torian.Magnifier.csproj", "{DF3F8D67-132B-4AA3-A707-59CBAB2E1826}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsHook", "WindowsHook\WindowsHook.csproj", "{58B864EC-DA1C-4E01-93EC-4FAF65ABAB39}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MagnifierSetup", "MagnifierSetup\MagnifierSetup.vdproj", "{FF476DA7-EAC9-4A1F-9F7F-3FCC13524623}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF3F8D67-132B-4AA3-A707-59CBAB2E1826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3F8D67-132B-4AA3-A707-59CBAB2E1826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3F8D67-132B-4AA3-A707-59CBAB2E1826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3F8D67-132B-4AA3-A707-59CBAB2E1826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B864EC-DA1C-4E01-93EC-4FAF65ABAB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B864EC-DA1C-4E01-93EC-4FAF65ABAB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B864EC-DA1C-4E01-93EC-4FAF65ABAB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B864EC-DA1C-4E01-93EC-4FAF65ABAB39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF476DA7-EAC9-4A1F-9F7F-3FCC13524623}.Debug|Any CPU.ActiveCfg = Debug
+		{FF476DA7-EAC9-4A1F-9F7F-3FCC13524623}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

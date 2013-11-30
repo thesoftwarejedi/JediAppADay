@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnAppADay.Utils", "..\AnAppADay.Utils\AnAppADay.Utils.csproj", "{7268CD4B-8EB8-49C2-8BFB-D0B9FA2C42AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnAppADay.MissileCommand.WinApp", "AnAppADay.MissileCommand.WinApp\AnAppADay.MissileCommand.WinApp.csproj", "{6E7200DE-0443-4A80-A21E-1AFC4347739A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7268CD4B-8EB8-49C2-8BFB-D0B9FA2C42AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7268CD4B-8EB8-49C2-8BFB-D0B9FA2C42AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7268CD4B-8EB8-49C2-8BFB-D0B9FA2C42AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7268CD4B-8EB8-49C2-8BFB-D0B9FA2C42AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E7200DE-0443-4A80-A21E-1AFC4347739A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E7200DE-0443-4A80-A21E-1AFC4347739A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E7200DE-0443-4A80-A21E-1AFC4347739A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E7200DE-0443-4A80-A21E-1AFC4347739A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

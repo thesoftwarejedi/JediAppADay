@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnAppADay.GraffitiWallpaper.Server", "AnAppADay.GraffitiWallpaper.Server\AnAppADay.GraffitiWallpaper.Server.csproj", "{C10758B6-B7EB-45A2-B71E-28061021B7DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnAppADay.GraffitiWallpaper.Shared", "AnAppADay.GraffitiWallpaper.Shared\AnAppADay.GraffitiWallpaper.Shared.csproj", "{E6154375-F90F-44B4-9FB7-E1191476603E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnAppADay.GraffitiWallpaper.Client", "AnAppADay.GraffitiWallpaper.Client\AnAppADay.GraffitiWallpaper.Client.csproj", "{4E264847-45F1-4E4C-BB50-1CF45C36D4BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C10758B6-B7EB-45A2-B71E-28061021B7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10758B6-B7EB-45A2-B71E-28061021B7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10758B6-B7EB-45A2-B71E-28061021B7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10758B6-B7EB-45A2-B71E-28061021B7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6154375-F90F-44B4-9FB7-E1191476603E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6154375-F90F-44B4-9FB7-E1191476603E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6154375-F90F-44B4-9FB7-E1191476603E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6154375-F90F-44B4-9FB7-E1191476603E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E264847-45F1-4E4C-BB50-1CF45C36D4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E264847-45F1-4E4C-BB50-1CF45C36D4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E264847-45F1-4E4C-BB50-1CF45C36D4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E264847-45F1-4E4C-BB50-1CF45C36D4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Tasks">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Task">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Schedule">
+                <xs:complexType>
+                  <xs:attribute name="Interval" type="xs:unsignedInt" use="optional" />
+                  <xs:attribute name="Days" type="xs:string" use="optional" />
+                  <xs:attribute name="Time" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Name" type="xs:string" use="required" />
+            <xs:attribute name="Execute" type="xs:string" use="required" />
+            <xs:attribute name="Args" type="xs:string" use="optional" />
+            <xs:attribute name="StdOut" type="xs:string" use="optional" />
+            <xs:attribute name="StdErr" type="xs:string" use="optional" />
+            <xs:attribute name="KillAfter" type="xs:unsignedInt" use="optional" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
