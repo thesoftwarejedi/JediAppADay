@@ -25,8 +25,8 @@ namespace AnAppADay.JediWindowDock.WinApp
             {
                 throw new Exception("That window is already on a tab");
             }
-            StringBuilder sb = new StringBuilder();
-            WinApi.GetWindowText(child, sb, 30);
+            StringBuilder sb = new StringBuilder(500);
+            WinApi.GetWindowText(child, sb, sb.Capacity);
             string title = sb.ToString();
             if (title != null && title.Trim().Length > 0)
             {
@@ -70,8 +70,8 @@ namespace AnAppADay.JediWindowDock.WinApp
                     else
                     {
                         //maybe....
-                        StringBuilder sb = new StringBuilder();
-                        WinApi.GetWindowText(win, sb, 100);
+                        StringBuilder sb = new StringBuilder(500);
+                        WinApi.GetWindowText(win, sb, sb.Capacity);
                         if (sb.Length > 0)
                         {
                             //THIS is a good window!
